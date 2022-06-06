@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ottawa Valley Golf Repair Shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" id="#home">
+        <div class="container py-2">
+            <a href="#" class="navbar-brand">Ottawa Valley Golf Repair Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-auto" id="navi">
+                <ul class="navbar-nav ms-auto">
+
+                    <a href="#book" class="btn btn-primary text-white me-auto" role="button" aria-pressed="true" style="background-color: #264e70; border-color: #264e70;">Book Appointment</a>
+
+                    <li class="nav-item me-auto">
+                        <a href="#info" class="nav-link">What We Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experts" class="nav-link">Meet Our Experts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- What We Do Section -->
+
+    <section class="bg-light py-2" id="info">
+        <div class="container py-3">
+            <div class="card bg-dark text-white">
+                <img src="/assets/main_img.jpg" alt="Card image" class="card-img" id="main_img">
+                <div class="card-img-overlay">
+                    <h2 class="card-title text-center p-2"> Who we are </h2>
+                    <h6 class="card-text p-5 text-center">We are a local golf repair shop located in the Ottawa
+                        Valley. Providing expertise for over 25 years.</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services -->
+    <section class="bg-light pb-5" id="services">
+        <div class="container">
+            <h2 class="text-center p-3"> Our Services </h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Service Name</th>
+                        <th scope="col">Price (per club)</th>
+                        <th scope="col"> <i class="bi bi-clock "></i></th>
+                        <th scope="col">Service Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Loft and Lie Check</th>
+                        <td>$3.00</td>
+                        <td>5 mins</td>
+                        <td>Check the Lofts and Lie of your club.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Loft and Lie Adjustment</th>
+                        <td>$3.00</td>
+                        <td>5 mins</td>
+                        <td>Adjust your clubs lofts and lies.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Regripping</th>
+                        <td>$3.50</td>
+                        <td>5 mins</td>
+                        <td>Change the grip of your favourite club.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Re-attach Club Head</th>
+                        <td>$10.00</td>
+                        <td>10 mins</td>
+                        <td>Put the club head back on the shaft.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Shorten Club</th>
+                        <td>$12.00</td>
+                        <td>10 mins</td>
+                        <td>Shorts the shaft length.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Extend Club</th>
+                        <td>$15.00</td>
+                        <td>10 mins</td>
+                        <td>Extend your shaft length.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Reshafting</th>
+                        <td>$20.00</td>
+                        <td>15 mins</td>
+                        <td>Change the change in your club.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Swing Weight Adjustment</th>
+                        <td>$20.00</td>
+                        <td>15 mins</td>
+                        <td>Adjust the swing weight of your club.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Our Experts -->
+    <section id="experts" style="background-color: #bbd4ce;">
+        <div class="container p-3">
+            <h2 class="text-center text-dark p-3">Our Experts</h2>
+
+            <div id="carousel-experts" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-experts" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-experts" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-experts" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner pb-5">
+                    <div class="carousel-item active">
+                        <div class="mx-auto card p-2" style="width: 18rem;">
+                            <img class="card-img-top img-thumbnail" src="/assets/shaggy.jpg" alt="Card image cap" style="max-width: 500px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Shaggy</h5>
+                                <p class="card-text pb-2">Expertise in Swing Weight Adjustments</p>
+                            </div>
+                            <section>
+                                <p class="px-3 text-start">Achievements Include :</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Fine Golf Club Repair Award (2018, 2020, 2021)</li>
+                                    <li class="list-group-item">Quickest Golf Club Repair Award (1990)</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="mx-auto card p-2" style="width: 18rem;">
+                            <img class="card-img-top img-thumbnail" src="/assets/toad.png" alt="Card image cap" style="max-width: 500px; max-height: 228px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Toad</h5>
+                                <p class="card-text">Expertise in Loft and Lie Adjustments</p>
+                            </div>
+                            
+                            <section>
+                                <p class="px-3 text-start">Achievements Include :</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Precision Acknowledgement Award
+                                    (1999, 2003, 2015)</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="mx-auto card p-2" style="width: 18rem;">
+                            <img class="card-img-top" src="/assets/goofy.png" alt="Card image cap" style="max-width: 500px; max-height: 252px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Goofy</h5>
+                                <p class="card-text">Expertise in Shorten and Extending Clubs</p>
+                            </div>
+                            <section>
+                                <p class="px-3 text-start">Achievements Include :</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Goofy Award (1932 - 2022)</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-experts"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-experts"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Book Appointment -->
+    <section class="bg-light" id="book">
+        <div class="container">
+
+            <h2 class="text-center p-3">Book Appointment</h2>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h3>
+                            Enter Information to Book an Appointment
+                        </h3>
+                    </div>
+                    <form class="needs-validation" id="appointmentBookings">
+                        <div class="row p-3">
+                            <div class="col-auto col-md">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control p-2" id="inputName" placeholder="Name" required>
+                            </div>
+                            <div class="col-auto col-md">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control p-2" id="inputEmail" placeholder="Email" required>
+                            </div>
+                        </div>
+
+                        <div class="row px-3 pb-3">
+                            <div class="col-sm">
+                                <label for="inputExpert">Choose Expert</label>
+                                <select id="inputExpert" class="form-control" required>
+                                    <option selected>Choose Expert...</option>
+                                    <option>Shaggy</option>
+                                    <option>Toad</option>
+                                    <option>Goofy</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm">
+                                <label for="inputService">Choose Service</label>
+                                <select id="inputService" class="form-control" required>
+                                    <option selected>Choose Service...</option>
+                                    <option>Loft and Lie Check - $3.00</option>
+                                    <option>Loft and Lie Adjustment - $3.00</option>
+                                    <option>Regripping - $3.50</option>
+                                    <option>Re-attach Club Head - $10.00</option>
+                                    <option>Shorten Club - $12.00</option>
+                                    <option>Extend Club - $15.00</option>
+                                    <option>Reshafting - $20.00</option>
+                                    <option>Swing Weight Adjustment - $20.00</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row px-3 pb-3">
+                            <div class="col-sm">
+                                <label for="date" class="">Pick a Date</label>
+                                <div class="col-sm">
+                                    <div class="input-group date">
+                                        <input type="date" class="form-control" id="date-picker" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm">
+                                <label for="selectTime">Select Time</label>
+                                <select class="form-control" id="selectTime" required>
+                                    <option>8:00 am</option>
+                                    <option>9:00 am</option>
+                                    <option>10:00 am</option>
+                                    <option>11:00 am</option>
+                                    <option>12:00 pm</option>
+                                    <option>1:00 pm</option>
+                                    <option>2:00 pm</option>
+                                    <option>3:00 pm</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group px-3 py-3">
+                            <label for="additionalInfo">Additional Information for Your Visit</label>
+                            <textarea class="form-control" id="additionalInfo" rows="3"></textarea>
+                        </div>
+
+                        <div class="container py-4">
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primary btn-lg active text-white" type="button" id="book_button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #264e70;">
+                                    Book Appointment
+                                </button>
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-light py-5" id="faq">
+        <div class="container">
+
+            <h2 class="text-center p-3">Frequently Asked Questions</h2>
+
+            <div id="accordion py-5">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                            What is your cancellation policy?
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            All cancellations must be made at least 24 hour prior to your reservation time.
+
+                            Any cancellations with less than 24 hours notice are subject to be charged in full for the
+                            reservation.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                            Should I make a reservation?
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Yes. It is best that you make a reservation online or by contacting us directly. This will
+                            ensure that you will be able
+                            to have access to our equipment upon arrival.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                            Unsure of which Service to Choose?
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Either not sure if the issue with the Club or just need a general talk with a trusted representive. 
+
+                            <br>
+                            <br>
+
+                            When Booking an Appointment : <br>
+                                1. Select Other... <br>
+                                2. Complete Form <br>
+                                3. Add to the 'Additional Information for Your Visit' to let us know the issue that you are facing.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                            Regularly Used Definitions (Glossary)
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="col">Clubhead</th>
+                                        <td>
+                                            The part of a golf club that strikes the ball. One of the three components of a golf club with the shaft and the grip
+                                            being the other two. See components for more information.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Club Length</th>
+                                        <td>
+                                            The length of the club from one end to the other. In club fitting the length is adjusted for a persons height, swing
+                                            and golf club type. The shorter the club the easier it is to hit.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Lie Angle</th>
+                                        <td>
+                                            The angle at which the sole of a club sits on the ground. Golfers of different heights and swing plane require different
+                                            lie angles for accuracy.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Loft Angle</th>
+                                        <td>
+                                            The angle of the clubface relative to a perpendicular line up from the ground. More loft creates a higher, shorter shot
+                                            with more backspin imparted to the ball. In drivers however, where the ball is usually impacted with an ascending blow,
+                                            optimizing distance is a matter of balancing launch angle, spin rate and angle of attack.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Shaft</th>
+                                        <td>
+                                            The long golf club component to which the head and grip are attached. Early shafts were made out of wood. Later steel
+                                            became the standard and now graphite is very common. Shafts need to be the correct length and flexibility for a
+                                            particular golfer to balance the need for accuracy and distance. See club fitting for more information.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Swing Weight</th>
+                                        <td>
+                                            The “apparent” weight of the club based on a balance point along the shaft. It is not a function of total weight but
+                                            more related to how heavy the clubhead feels to the golfer. Ideally all clubs should have about the same swing weight.
+                                            Swing weight is measured by a letter and number system from A1 <-> G10. The standard for most males is D1 and for women
+                                            C5. To achieve a given swing weight shaft length is the main adjustment because clubhead weight is pre-defined and
+                                            standardized for each club.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Us -->
+    <section class="py-4" id="contact" style="background-color: #bbd4ce;">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col text-center">
+                    <div class="card text-dark py-3">
+                        <div class="card-body">
+                            <h1 class="card-title">
+                                Contact Us
+                            </h5>
+                            <p class="card-text">
+                                Ottawa Valley Golf Repair Shop
+                            </p>
+
+                            <p>
+                                <u>9 Long Valley Road, Ottawa, Ontario, Canada</u>
+                                <br>
+                                <i>+1 (613) 562-5700 ext 1</i>
+                            </p>
+
+                            <h5 class="card-title">
+                                Business Hours
+                            </h5>
+
+                            <p class="card-text lead">
+                                Everyday from 8 am to 3pm
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">Thanks</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal_body">
+
+                    <h6 class="text-center text-black lead" id="modal_body_name"></h6>
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col py-2" id="modal_body_date">
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h6>Expert :</h6>
+                                <p id="modal_body_expert"></p>
+                            </div>
+
+                            <div class="col-sm-8">
+                                <h6>Service :</h6>
+                                <p id="modal_body_service"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-white py-3" style="background-color: #264e70;">
+        <a href="#" style="color: white;" class="text-decoration-none"><h3>Ottawa Valley Golf Repair Shop</h3></a>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

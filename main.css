@@ -1,0 +1,31 @@
+.carousel-inner > .item > img {
+  width: 100%;
+}
+
+.img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.thumbnail {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#carousel {
+  border: 0px;
+}
+
+#thumbnail {
+  border: 0;
+}
+
+.the-grid .row .thumbnail {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
